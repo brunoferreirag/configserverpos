@@ -22,9 +22,7 @@ security:
             client-secret: $2a$10$p9Pk0fQNAQSesI4vuvKA0OZanDD2
             resource-ids: resources
             scope: read,write
-            resource:
-              userInfoUri: https://graph.facebook.com/me
-
+         
 spring:
     datasource:
         data: classpath:/sql/data.sql
