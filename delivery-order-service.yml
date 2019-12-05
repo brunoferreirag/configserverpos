@@ -20,5 +20,5 @@ security:
   oauth2:
     resource:
       userInfoUri: ${authserver.hostname}/user-auth
-      token-info-uri: ${authserver.hostname}/oauth2/introspect
+      token-info-uri: ${authserver.hostname}/oauth/check_token
       id: api
