@@ -19,4 +19,5 @@ authserver:
 security:
   oauth2:
     resource:
-      userInfoUri: ${authserver.hostname}/user-auth
+      userInfoUri: ${authserver.hostname}/user
+      id: api
